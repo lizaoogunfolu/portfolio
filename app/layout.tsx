@@ -35,10 +35,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
         <header className="sticky top-0 z-10 border-b border-zinc-100 bg-white/80 backdrop-blur dark:border-zinc-900 dark:bg-zinc-950/80">
           <div className="mx-auto flex w-full max-w-4xl items-center justify-between px-6 py-4">
-            <Link href="/" className="text-2xl font-extrabold tracking-tight">
-              Elizabeth{" "}
-              <span className="text-sky-700 dark:text-sky-400">
-                Klamm
+            <Link href="/" className="block">
+              <span className="block text-2xl font-extrabold tracking-tight">
+                Elizabeth Klamm
+              </span>
+              <span className="block text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                Technical Project Manager · Portland, OR
               </span>
             </Link>
             <nav className="flex gap-5 text-sm font-medium text-zinc-600 dark:text-zinc-400">

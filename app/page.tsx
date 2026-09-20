@@ -10,9 +10,6 @@ export default function Home() {
   return (
     <div className="space-y-20 pt-14">
       <section className="space-y-6">
-        <p className="inline-block rounded-full bg-sky-100 px-3 py-1 text-sm font-semibold text-sky-700 dark:bg-sky-950 dark:text-sky-300">
-          Technical Project Manager · Portland, OR
-        </p>
         <h1 className="text-5xl font-extrabold leading-tight tracking-tight sm:text-6xl">
           I turn complex programs into{" "}
           <span className="text-sky-700 dark:text-sky-400">
