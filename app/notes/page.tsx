@@ -1,11 +1,11 @@
-export const metadata = { title: "Notes — Elizabeth Klamm" };
+export const metadata = { title: "Notes | Elizabeth Klamm" };
 
 const notes = [
   {
     date: "2026-09-19",
     title: "Why I'm building my own portfolio site",
     summary:
-      "First note: what I'm learning by building this site itself with Next.js and AI-assisted development — and why a PM should ship her own products.",
+      "First note: what I'm learning by building this site itself with Next.js and AI-assisted development, and why a PM should ship her own products.",
   },
 ];
 
@@ -19,7 +19,7 @@ export default function Notes() {
           </span>
         </h1>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-          A working log of my AI learning journey — what I&apos;m building,
+          A working log of my AI learning journey: what I&apos;m building,
           what broke, and what I&apos;d do differently.
         </p>
       </div>

@@ -1,4 +1,4 @@
-export const metadata = { title: "Case Studies — Elizabeth Klamm" };
+export const metadata = { title: "Case Studies | Elizabeth Klamm" };
 
 const caseStudies = [
   {
@@ -8,7 +8,7 @@ const caseStudies = [
     problem:
       "A legacy SQL database served 700+ users across North America, but couldn't support modern analytics at scale.",
     approach:
-      "Led cross-functional engineers through the end-to-end migration — and queried and validated data directly in SQL and Databricks myself to troubleshoot issues, verify accuracy, and ask the right technical questions between business and engineering.",
+      "Led cross-functional engineers through the end-to-end migration, and queried and validated data directly in SQL and Databricks myself to troubleshoot issues, verify accuracy, and ask the right technical questions between business and engineering.",
     outcome: "95% adoption across North America",
     color: "violet",
   },
@@ -17,7 +17,7 @@ const caseStudies = [
     title: "SAP enablement for 250K+ soccer balls",
     org: "Adidas",
     problem:
-      "Wholesale distribution capabilities had to be activated in SAP in time for the World Cup — a deadline that doesn't move.",
+      "Wholesale distribution capabilities had to be activated in SAP in time for the World Cup, a deadline that doesn't move.",
     approach:
       "Led the cross-functional enablement project across tech and business teams, managing readiness for wholesale partners against a fixed global event date.",
     outcome: "On-time readiness for wholesale partners",
@@ -89,7 +89,7 @@ export default function CaseStudies() {
           </span>
         </h1>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-          Selected programs I&apos;ve led — the problem, my approach, and the
+          Selected programs I&apos;ve led: the problem, my approach, and the
           measurable result.
         </p>
       </div>

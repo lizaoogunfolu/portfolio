@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elizabeth Klamm — Technical Project Manager & AI Builder",
+  title: "Elizabeth Klamm | Technical Project Manager & AI Builder",
   description:
-    "Technical Project Manager with 5+ years leading enterprise cloud migrations, SAP integrations, and data platform initiatives — now building with AI.",
+    "Technical Project Manager with 5+ years leading enterprise cloud migrations, SAP integrations, and data platform initiatives, now building with AI.",
 };
 
 const nav = [
@@ -63,7 +63,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="mx-auto flex w-full max-w-4xl flex-wrap items-center justify-between gap-3 px-6 py-8 text-sm text-zinc-500">
             <span>© {new Date().getFullYear()} Elizabeth Klamm</span>
             <span>
-              Built with Next.js — by me, with AI as my pair programmer.
+              Built with Next.js, by me, with AI as my pair programmer.
             </span>
           </div>
         </footer>

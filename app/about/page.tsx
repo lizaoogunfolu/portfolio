@@ -1,4 +1,4 @@
-export const metadata = { title: "About — Elizabeth Klamm" };
+export const metadata = { title: "About | Elizabeth Klamm" };
 
 const skillGroups = [
   {
@@ -57,7 +57,7 @@ export default function About() {
           5+ years across enterprise tech at Adidas and BMO Financial Group.
           I&apos;ve driven $3M+ in cost savings and efficiency gains by
           leading cloud migrations, SAP integrations, and data platform
-          initiatives — and I get hands-on, querying data in SQL and
+          initiatives, and I get hands-on, querying data in SQL and
           Databricks to ask the right technical questions.
         </p>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">

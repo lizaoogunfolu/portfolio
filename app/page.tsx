@@ -17,10 +17,10 @@ export default function Home() {
           </span>
         </h1>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-          I&apos;m Elizabeth Klamm — a Technical Project Manager with 5+ years
+          I&apos;m Elizabeth Klamm, a Technical Project Manager with 5+ years
           leading enterprise cloud migrations, SAP integrations, and data
           platform initiatives at Adidas and BMO. I pair PM rigor with hands-on
-          fluency in SQL and Databricks, and I&apos;m now building with AI —
+          fluency in SQL and Databricks, and I&apos;m now building with AI,
           from an Agentic AI initiative for supply chain to shipping my own
           products.
         </p>
@@ -72,7 +72,7 @@ export default function Home() {
               Agentic AI for Supply Chain
             </h3>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-              Kicked off an Agentic AI initiative at Adidas — aligning tech and
+              Kicked off an Agentic AI initiative at Adidas, aligning tech and
               business stakeholders around a human-in-the-loop design, from
               process flowcharts to executive presentations.
             </p>
@@ -88,7 +88,7 @@ export default function Home() {
               The Hungry Globe 🌍
             </h3>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-              My own web app for eating your way around the world — built
+              My own web app for eating your way around the world, built
               end-to-end with AI-assisted development, deployed on Vercel with
               analytics-driven success metrics.
             </p>

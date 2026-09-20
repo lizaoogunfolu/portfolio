@@ -1,4 +1,4 @@
-export const metadata = { title: "AI Projects — Elizabeth Klamm" };
+export const metadata = { title: "AI Projects | Elizabeth Klamm" };
 
 const projects = [
   {
@@ -6,7 +6,7 @@ const projects = [
     context: "Adidas · Enterprise initiative",
     stack: "Agentic AI · Human-in-the-loop design · Stakeholder alignment",
     summary:
-      "Kicked off an Agentic AI initiative for Supply Chain — aligning tech and business stakeholders to design a human-in-the-loop solution.",
+      "Kicked off an Agentic AI initiative for Supply Chain, aligning tech and business stakeholders to design a human-in-the-loop solution.",
     highlights: [
       "Mapped the end-to-end process with flowcharts to identify where agents add value and where humans stay in the loop",
       "Built the delivery timeline and presented the initiative to executives",
@@ -19,7 +19,7 @@ const projects = [
     context: "Personal build · Live product",
     stack: "Next.js · Vercel · Vercel Analytics · AI-assisted development",
     summary:
-      "A web app that helps you eat your way around the world — surfacing top-rated global cuisine spots near you, with a quality floor and cuisine-relevance keyword enrichment.",
+      "A web app that helps you eat your way around the world, surfacing top-rated global cuisine spots near you, with a quality floor and cuisine-relevance keyword enrichment.",
     highlights: [
       "Defined success metrics up front and instrumented them with analytics events",
       "Managed dev/preview/production environments like a real product",
@@ -32,7 +32,7 @@ const projects = [
     context: "Personal build",
     stack: "Next.js · Tailwind CSS · AI-assisted development",
     summary:
-      "The site you're reading — designed, built, and iterated with AI as a pair programmer, applying the same PM discipline I use at work: scope it, ship it, improve it.",
+      "The site you're reading, designed, built, and iterated with AI as a pair programmer, applying the same PM discipline I use at work: scope it, ship it, improve it.",
     highlights: [
       "From blank repo to deployed site with real content in short iterations",
       "Every design decision reviewed and directed by me",
