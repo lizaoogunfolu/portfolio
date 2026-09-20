@@ -37,7 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="mx-auto flex w-full max-w-4xl items-center justify-between px-6 py-4">
             <Link href="/" className="text-2xl font-extrabold tracking-tight">
               Elizabeth{" "}
-              <span className="text-blue-700 dark:text-blue-400">
+              <span className="text-sky-700 dark:text-sky-400">
                 Klamm
               </span>
             </Link>
@@ -46,7 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="transition hover:text-blue-600 dark:hover:text-blue-400"
+                  className="transition hover:text-sky-600 dark:hover:text-sky-400"
                 >
                   {item.label}
                 </Link>

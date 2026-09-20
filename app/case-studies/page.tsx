@@ -71,11 +71,11 @@ const caseStudies = [
 
 const tagColors: Record<string, string> = {
   violet:
-    "bg-blue-100 text-blue-700 dark:bg-blue-950 dark:text-blue-300",
+    "bg-sky-100 text-sky-700 dark:bg-sky-950 dark:text-sky-300",
   orange:
     "bg-sky-100 text-sky-700 dark:bg-sky-950 dark:text-sky-300",
   fuchsia:
-    "bg-blue-100 text-blue-700 dark:bg-blue-950 dark:text-blue-300",
+    "bg-sky-100 text-sky-700 dark:bg-sky-950 dark:text-sky-300",
 };
 
 export default function CaseStudies() {
@@ -84,7 +84,7 @@ export default function CaseStudies() {
       <div className="space-y-4">
         <h1 className="text-4xl font-extrabold tracking-tight">
           Case{" "}
-          <span className="text-blue-700 dark:text-blue-400">
+          <span className="text-sky-700 dark:text-sky-400">
             Studies
           </span>
         </h1>
@@ -97,7 +97,7 @@ export default function CaseStudies() {
         {caseStudies.map((cs) => (
           <article
             key={cs.title}
-            className="flex flex-col rounded-2xl border border-zinc-100 p-6 transition hover:shadow-lg hover:shadow-blue-600/5 dark:border-zinc-800"
+            className="flex flex-col rounded-2xl border border-zinc-100 p-6 transition hover:shadow-lg hover:shadow-sky-600/5 dark:border-zinc-800"
           >
             <div className="flex items-center justify-between">
               <span

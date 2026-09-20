@@ -14,7 +14,7 @@ export default function Notes() {
     <div className="space-y-10 pt-14">
       <div className="space-y-4">
         <h1 className="text-4xl font-extrabold tracking-tight">
-          <span className="text-blue-700 dark:text-blue-400">
+          <span className="text-sky-700 dark:text-sky-400">
             Notes
           </span>
         </h1>
@@ -27,7 +27,7 @@ export default function Notes() {
         {notes.map((n) => (
           <article
             key={n.title}
-            className="rounded-2xl border border-zinc-100 p-6 transition hover:border-blue-200 hover:shadow-lg hover:shadow-blue-600/5 dark:border-zinc-800 dark:hover:border-blue-900"
+            className="rounded-2xl border border-zinc-100 p-6 transition hover:border-sky-200 hover:shadow-lg hover:shadow-sky-600/5 dark:border-zinc-800 dark:hover:border-sky-900"
           >
             <time className="text-xs font-semibold uppercase tracking-wider text-sky-600 dark:text-sky-400">
               {n.date}
