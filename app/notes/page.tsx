@@ -14,7 +14,7 @@ export default function Notes() {
     <div className="space-y-10 pt-14">
       <div className="space-y-4">
         <h1 className="text-4xl font-extrabold tracking-tight">
-          <span className="bg-gradient-to-r from-violet-600 to-orange-500 bg-clip-text text-transparent">
+          <span className="text-blue-700 dark:text-blue-400">
             Notes
           </span>
         </h1>
@@ -27,9 +27,9 @@ export default function Notes() {
         {notes.map((n) => (
           <article
             key={n.title}
-            className="rounded-2xl border border-zinc-100 p-6 transition hover:border-violet-200 hover:shadow-lg hover:shadow-violet-600/5 dark:border-zinc-800 dark:hover:border-violet-900"
+            className="rounded-2xl border border-zinc-100 p-6 transition hover:border-blue-200 hover:shadow-lg hover:shadow-blue-600/5 dark:border-zinc-800 dark:hover:border-blue-900"
           >
-            <time className="text-xs font-semibold uppercase tracking-wider text-orange-600 dark:text-orange-400">
+            <time className="text-xs font-semibold uppercase tracking-wider text-sky-600 dark:text-sky-400">
               {n.date}
             </time>
             <h2 className="mt-1 text-lg font-bold">{n.title}</h2>

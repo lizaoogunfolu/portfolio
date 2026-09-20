@@ -47,7 +47,7 @@ export default function Projects() {
       <div className="space-y-4">
         <h1 className="text-4xl font-extrabold tracking-tight">
           AI{" "}
-          <span className="bg-gradient-to-r from-violet-600 to-orange-500 bg-clip-text text-transparent">
+          <span className="text-blue-700 dark:text-blue-400">
             Projects
           </span>
         </h1>
@@ -60,11 +60,11 @@ export default function Projects() {
         {projects.map((p) => (
           <article
             key={p.title}
-            className="rounded-2xl border border-zinc-100 p-7 transition hover:border-violet-200 hover:shadow-lg hover:shadow-violet-600/5 dark:border-zinc-800 dark:hover:border-violet-900"
+            className="rounded-2xl border border-zinc-100 p-7 transition hover:border-blue-200 hover:shadow-lg hover:shadow-blue-600/5 dark:border-zinc-800 dark:hover:border-blue-900"
           >
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h2 className="text-xl font-bold">{p.title}</h2>
-              <span className="text-xs font-semibold uppercase tracking-wider text-fuchsia-600 dark:text-fuchsia-400">
+              <span className="text-xs font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400">
                 {p.context}
               </span>
             </div>
@@ -75,7 +75,7 @@ export default function Projects() {
             <ul className="mt-3 space-y-1.5 text-sm text-zinc-600 dark:text-zinc-400">
               {p.highlights.map((h) => (
                 <li key={h} className="flex gap-2">
-                  <span className="text-violet-500">▸</span>
+                  <span className="text-blue-500">▸</span>
                   {h}
                 </li>
               ))}
@@ -83,7 +83,7 @@ export default function Projects() {
             {p.link && (
               <a
                 href={p.link}
-                className="mt-4 inline-block text-sm font-semibold text-violet-600 hover:underline dark:text-violet-400"
+                className="mt-4 inline-block text-sm font-semibold text-blue-600 hover:underline dark:text-blue-400"
               >
                 Visit project →
               </a>

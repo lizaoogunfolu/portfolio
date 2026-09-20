@@ -48,7 +48,7 @@ export default function About() {
       <div className="space-y-4">
         <h1 className="text-4xl font-extrabold tracking-tight">
           About{" "}
-          <span className="bg-gradient-to-r from-violet-600 to-orange-500 bg-clip-text text-transparent">
+          <span className="text-blue-700 dark:text-blue-400">
             me
           </span>
         </h1>
@@ -69,7 +69,7 @@ export default function About() {
       </div>
 
       <section className="space-y-4">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-fuchsia-600 dark:text-fuchsia-400">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">
           Experience
         </h2>
         <div className="space-y-3">
@@ -110,7 +110,7 @@ export default function About() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-fuchsia-600 dark:text-fuchsia-400">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">
           Education
         </h2>
         <div className="space-y-3">
@@ -133,7 +133,7 @@ export default function About() {
       </section>
 
       <section className="space-y-5">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-fuchsia-600 dark:text-fuchsia-400">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">
           Skills
         </h2>
         {skillGroups.map((group) => (
@@ -145,7 +145,7 @@ export default function About() {
               {group.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="rounded-full border border-zinc-200 px-3 py-1 text-sm font-medium text-zinc-700 transition hover:border-violet-400 dark:border-zinc-800 dark:text-zinc-300"
+                  className="rounded-full border border-zinc-200 px-3 py-1 text-sm font-medium text-zinc-700 transition hover:border-blue-400 dark:border-zinc-800 dark:text-zinc-300"
                 >
                   {skill}
                 </span>
@@ -156,19 +156,19 @@ export default function About() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-fuchsia-600 dark:text-fuchsia-400">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">
           Get in touch
         </h2>
         <div className="flex flex-wrap gap-3">
           <a
             href="mailto:liza.oogunfolu@gmail.com"
-            className="rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-violet-600/25 transition hover:opacity-90"
+            className="rounded-xl bg-blue-700 hover:bg-blue-800 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:opacity-90"
           >
             Email me
           </a>
           <a
             href="/ElizabethKlamm-Resume.pdf"
-            className="rounded-xl border-2 border-zinc-200 px-5 py-2.5 text-sm font-semibold transition hover:border-violet-400 dark:border-zinc-800 dark:hover:border-violet-600"
+            className="rounded-xl border-2 border-zinc-200 px-5 py-2.5 text-sm font-semibold transition hover:border-blue-400 dark:border-zinc-800 dark:hover:border-blue-600"
           >
             Download resume
           </a>

@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <div className="space-y-20 pt-14">
       <section className="space-y-6">
-        <p className="inline-block rounded-full bg-violet-100 px-3 py-1 text-sm font-semibold text-violet-700 dark:bg-violet-950 dark:text-violet-300">
+        <p className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-700 dark:bg-blue-950 dark:text-blue-300">
           Technical Project Manager · Portland, OR
         </p>
         <h1 className="text-5xl font-extrabold leading-tight tracking-tight sm:text-6xl">
           I turn complex programs into{" "}
-          <span className="bg-gradient-to-r from-violet-600 via-fuchsia-500 to-orange-500 bg-clip-text text-transparent">
+          <span className="text-blue-700 dark:text-blue-400">
             shipped outcomes.
           </span>
         </h1>
@@ -30,13 +30,13 @@ export default function Home() {
         <div className="flex flex-wrap gap-3 pt-2">
           <Link
             href="/case-studies"
-            className="rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-violet-600/25 transition hover:opacity-90"
+            className="rounded-xl bg-blue-700 hover:bg-blue-800 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:opacity-90"
           >
             See my work
           </Link>
           <a
             href="/ElizabethKlamm-Resume.pdf"
-            className="rounded-xl border-2 border-zinc-200 px-5 py-2.5 text-sm font-semibold transition hover:border-violet-400 dark:border-zinc-800 dark:hover:border-violet-600"
+            className="rounded-xl border-2 border-zinc-200 px-5 py-2.5 text-sm font-semibold transition hover:border-blue-400 dark:border-zinc-800 dark:hover:border-blue-600"
           >
             Download resume
           </a>
@@ -47,9 +47,9 @@ export default function Home() {
         {stats.map((s) => (
           <div
             key={s.value}
-            className="rounded-2xl border border-zinc-100 bg-gradient-to-b from-zinc-50 to-white p-6 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-950"
+            className="rounded-2xl border border-zinc-100 bg-zinc-50 p-6 dark:border-zinc-800 dark:bg-zinc-900"
           >
-            <p className="text-4xl font-extrabold bg-gradient-to-r from-violet-600 to-orange-500 bg-clip-text text-transparent">
+            <p className="text-4xl font-extrabold text-blue-700 dark:text-blue-400">
               {s.value}
             </p>
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
@@ -60,18 +60,18 @@ export default function Home() {
       </section>
 
       <section className="space-y-5">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-fuchsia-600 dark:text-fuchsia-400">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">
           Highlights
         </h2>
         <div className="grid gap-4 sm:grid-cols-2">
           <Link
             href="/projects"
-            className="group rounded-2xl border border-zinc-100 p-6 transition hover:border-violet-300 hover:shadow-lg hover:shadow-violet-600/10 dark:border-zinc-800 dark:hover:border-violet-700"
+            className="group rounded-2xl border border-zinc-100 p-6 transition hover:border-blue-300 hover:shadow-lg hover:shadow-blue-600/10 dark:border-zinc-800 dark:hover:border-blue-700"
           >
-            <p className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400">
+            <p className="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
               AI at work
             </p>
-            <h3 className="mt-2 text-xl font-bold group-hover:text-violet-600 dark:group-hover:text-violet-400">
+            <h3 className="mt-2 text-xl font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400">
               Agentic AI for Supply Chain
             </h3>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
@@ -82,12 +82,12 @@ export default function Home() {
           </Link>
           <Link
             href="/projects"
-            className="group rounded-2xl border border-zinc-100 p-6 transition hover:border-orange-300 hover:shadow-lg hover:shadow-orange-500/10 dark:border-zinc-800 dark:hover:border-orange-700"
+            className="group rounded-2xl border border-zinc-100 p-6 transition hover:border-sky-300 hover:shadow-lg hover:shadow-sky-500/10 dark:border-zinc-800 dark:hover:border-sky-700"
           >
-            <p className="text-xs font-bold uppercase tracking-wider text-orange-600 dark:text-orange-400">
+            <p className="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400">
               Built & shipped
             </p>
-            <h3 className="mt-2 text-xl font-bold group-hover:text-orange-600 dark:group-hover:text-orange-400">
+            <h3 className="mt-2 text-xl font-bold group-hover:text-sky-600 dark:group-hover:text-sky-400">
               The Hungry Globe 🌍
             </h3>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
