@@ -1,10 +1,5 @@
 import Link from "next/link";
-
-const stats = [
-  { value: "$3M+", label: "Cost savings and cost avoidance delivered" },
-  { value: "700+", label: "Users migrated to Databricks, 95% adoption" },
-  { value: "20+", label: "Teams coordinated for zero-disruption go-live" },
-];
+import { contact, stats } from "@/data/profile";
 
 export default function Home() {
   return (
@@ -32,7 +27,7 @@ export default function Home() {
             See my work
           </Link>
           <a
-            href="/ElizabethKlamm-Resume.pdf"
+            href={contact.resume}
             className="rounded-xl border-2 border-zinc-200 px-5 py-2.5 text-sm font-semibold transition hover:border-sky-400 dark:border-zinc-800 dark:hover:border-sky-600"
           >
             Download resume

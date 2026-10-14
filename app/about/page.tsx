@@ -1,59 +1,13 @@
-export const metadata = { title: "About | Elizabeth Klamm" };
+import { contact, education, experience, skillGroups } from "@/data/profile";
 
-const skillGroups = [
-  {
-    label: "Project & Delivery",
-    skills: [
-      "Agile / Scrum",
-      "Waterfall / Hybrid",
-      "Scope & Requirements Management",
-      "RAID & Dependency Management",
-      "Risk Management",
-      "Change Management",
-      "RACI & Governance",
-      "Budget & Resource Planning",
-      "Vendor / SOW Management",
-      "Stakeholder Management",
-      "Executive Status Reporting",
-      "Test Management",
-    ],
-  },
-  {
-    label: "Technical",
-    skills: [
-      "SQL",
-      "Databricks Lakehouse",
-      "SAP AFS",
-      "Power BI",
-      "SSRS",
-      "Spotfire",
-      "Cloud & Infrastructure Migration",
-      "RPA / UiPath",
-      "AI-assisted development",
-    ],
-  },
-  {
-    label: "Tools",
-    skills: [
-      "Jira",
-      "Confluence",
-      "Smartsheet",
-      "Planview",
-      "Clarity PPM",
-      "Excel",
-    ],
-  },
-];
+export const metadata = { title: "About | Elizabeth Klamm" };
 
 export default function About() {
   return (
     <div className="space-y-12 pt-14">
       <div className="space-y-4">
         <h1 className="text-4xl font-extrabold tracking-tight">
-          About{" "}
-          <span className="text-sky-700 dark:text-sky-400">
-            me
-          </span>
+          About <span className="text-sky-700 dark:text-sky-400">me</span>
         </h1>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
           I&apos;m a Technical Project Manager at Adidas in Portland, OR, with
@@ -66,9 +20,8 @@ export default function About() {
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
           I believe the best way to understand AI is to build with it. Beyond
           leading an agentic PO-reroute solution at work, I ship my own
-          products
-          with AI-assisted development and document what I learn along the
-          way.
+          products with AI-assisted development and document what I learn
+          along the way.
         </p>
       </div>
 
@@ -77,28 +30,7 @@ export default function About() {
           Experience
         </h2>
         <div className="space-y-3">
-          {[
-            {
-              role: "Technical Project Manager",
-              org: "Adidas · Portland, OR",
-              time: "2024 – Present",
-            },
-            {
-              role: "Assistant Technical Project Manager",
-              org: "Adidas · Portland, OR",
-              time: "2022 – 2024",
-            },
-            {
-              role: "Technology Analyst",
-              org: "Adidas · Portland, OR",
-              time: "2021 – 2022",
-            },
-            {
-              role: "Technology Analyst",
-              org: "BMO Financial Group · Chicago, IL",
-              time: "2019 – 2021",
-            },
-          ].map((job) => (
+          {experience.map((job) => (
             <div
               key={job.role + job.time}
               className="flex flex-wrap items-baseline justify-between gap-2 rounded-xl border border-zinc-100 px-5 py-4 dark:border-zinc-800"
@@ -118,21 +50,15 @@ export default function About() {
           Education
         </h2>
         <div className="space-y-3">
-          <div className="rounded-xl border border-zinc-100 px-5 py-4 dark:border-zinc-800">
-            <p className="font-bold">
-              M.S. Management Information Systems
-            </p>
-            <p className="text-sm text-zinc-500">
-              University of Illinois Springfield · Graduate Certificate in IT
-              Project Management · 2023
-            </p>
-          </div>
-          <div className="rounded-xl border border-zinc-100 px-5 py-4 dark:border-zinc-800">
-            <p className="font-bold">B.S. Industrial Technology</p>
-            <p className="text-sm text-zinc-500">
-              Illinois State University · 2019
-            </p>
-          </div>
+          {education.map((ed) => (
+            <div
+              key={ed.degree}
+              className="rounded-xl border border-zinc-100 px-5 py-4 dark:border-zinc-800"
+            >
+              <p className="font-bold">{ed.degree}</p>
+              <p className="text-sm text-zinc-500">{ed.detail}</p>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -165,13 +91,13 @@ export default function About() {
         </h2>
         <div className="flex flex-wrap gap-3">
           <a
-            href="mailto:liza.oogunfolu@gmail.com"
-            className="rounded-xl bg-sky-700 hover:bg-sky-800 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-sky-700/20 transition hover:opacity-90"
+            href={`mailto:${contact.email}`}
+            className="rounded-xl bg-sky-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-sky-700/20 transition hover:bg-sky-800"
           >
             Email me
           </a>
           <a
-            href="/ElizabethKlamm-Resume.pdf"
+            href={contact.resume}
             className="rounded-xl border-2 border-zinc-200 px-5 py-2.5 text-sm font-semibold transition hover:border-sky-400 dark:border-zinc-800 dark:hover:border-sky-600"
           >
             Download resume
