@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const stats = [
-  { value: "$3M+", label: "Cost savings & efficiency gains delivered" },
+  { value: "$3M+", label: "Cost savings and cost avoidance delivered" },
   { value: "700+", label: "Users migrated to Databricks, 95% adoption" },
   { value: "20+", label: "Teams coordinated for zero-disruption go-live" },
 ];
@@ -17,12 +17,12 @@ export default function Home() {
           </span>
         </h1>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-          I&apos;m Elizabeth Klamm, a Technical Project Manager with 5+ years
-          leading enterprise cloud migrations, SAP integrations, and data
-          platform initiatives at Adidas and BMO. I pair PM rigor with hands-on
-          fluency in SQL and Databricks, and I&apos;m now building with AI,
-          from an Agentic AI initiative for supply chain to shipping my own
-          products.
+          I&apos;m Elizabeth Klamm, a Technical Project Manager with 7 years in
+          technology delivery, leading enterprise cloud migrations, SAP
+          integrations, and data platform modernization at Adidas and BMO. I
+          pair PM rigor with hands-on fluency in SQL and Databricks, and
+          I&apos;m now building with AI, from an agentic PO-reroute solution
+          at work to shipping my own products.
         </p>
         <div className="flex flex-wrap gap-3 pt-2">
           <Link
@@ -69,12 +69,12 @@ export default function Home() {
               AI at work
             </p>
             <h3 className="mt-2 text-xl font-bold group-hover:text-sky-600 dark:group-hover:text-sky-400">
-              Agentic AI for Supply Chain
+              Agentic PO-Reroute Solution
             </h3>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-              Kicked off an Agentic AI initiative at Adidas, aligning tech and
-              business stakeholders around a human-in-the-loop design, from
-              process flowcharts to executive presentations.
+              Led planning for an agentic purchase-order reroute solution at
+              Adidas, integrating SAP, UiPath agents, and RPA with
+              human-in-the-loop controls across global and local stakeholders.
             </p>
           </Link>
           <Link

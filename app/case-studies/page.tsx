@@ -8,20 +8,31 @@ const caseStudies = [
     problem:
       "A legacy SQL database served 700+ users across North America, but couldn't support modern analytics at scale.",
     approach:
-      "Led cross-functional engineers through the end-to-end migration, and queried and validated data directly in SQL and Databricks myself to troubleshoot issues, verify accuracy, and ask the right technical questions between business and engineering.",
+      "Drove the Waterfall migration of 700+ users to Databricks Lakehouse and Power BI, querying and validating data directly in SQL and Databricks myself to troubleshoot issues and ask the right technical questions between business and engineering.",
     outcome: "95% adoption across North America",
     color: "violet",
   },
   {
     tag: "SAP · World Cup",
-    title: "SAP enablement for 250K+ soccer balls",
+    title: "SAP enablement for 140K World Cup soccer balls",
     org: "Adidas",
     problem:
-      "Wholesale distribution capabilities had to be activated in SAP in time for the World Cup, a deadline that doesn't move.",
+      "Wholesale distribution capability had to be established in SAP in time for the 2026 World Cup, a deadline that doesn't move.",
     approach:
       "Led the cross-functional enablement project across tech and business teams, managing readiness for wholesale partners against a fixed global event date.",
-    outcome: "On-time readiness for wholesale partners",
+    outcome: "On-time readiness supporting 2026 World Cup net sales",
     color: "orange",
+  },
+  {
+    tag: "Vendor Integration",
+    title: "Centralized workplace experience across two vendors",
+    org: "Adidas",
+    problem:
+      "Employee workplace services were split across ServiceNow/Aspen and CBRE's facilities management systems with no central experience.",
+    approach:
+      "Lead the two-vendor integration, owning the project plan, RACI, and timeline, and running delivery through Scrum.",
+    outcome: "A centralized workplace experience for employees",
+    color: "violet",
   },
   {
     tag: "Quality Assurance",
@@ -52,7 +63,7 @@ const caseStudies = [
     problem:
       "The company-wide telecom contract was up for renewal at significant cost.",
     approach:
-      "Led procurement and vendor negotiation end to end, benchmarking against alternatives to strengthen the position.",
+      "Ran the telecom RFP as a structured project, coordinating a three-vendor evaluation and reporting status to executives up to the North America President.",
     outcome: "$1.5M in cost savings secured",
     color: "orange",
   },
@@ -63,7 +74,7 @@ const caseStudies = [
     problem:
       "Manual processes across 70+ systems were consuming thousands of labor hours a year.",
     approach:
-      "Delivered automation solutions and process improvements enabling smoother roadmapping and phased migrations.",
+      "Acted as RPA business analyst: documented processes in PDDs, designed workflows, and managed build-to-deployment with the RPA team.",
     outcome: "19,000 labor hours and $950K in business value saved",
     color: "fuchsia",
   },

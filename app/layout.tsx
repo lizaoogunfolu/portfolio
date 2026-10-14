@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Elizabeth Klamm | Technical Project Manager & AI Builder",
   description:
-    "Technical Project Manager with 5+ years leading enterprise cloud migrations, SAP integrations, and data platform initiatives, now building with AI.",
+    "Technical Project Manager with 7 years in technology delivery across cloud migrations, SAP integrations, and data platform modernization, now building with AI.",
 };
 
 const nav = [

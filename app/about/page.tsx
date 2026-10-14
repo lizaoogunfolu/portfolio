@@ -2,28 +2,33 @@ export const metadata = { title: "About | Elizabeth Klamm" };
 
 const skillGroups = [
   {
-    label: "Project Management",
+    label: "Project & Delivery",
     skills: [
       "Agile / Scrum",
-      "Waterfall",
-      "Six Sigma",
-      "SDLC",
+      "Waterfall / Hybrid",
+      "Scope & Requirements Management",
+      "RAID & Dependency Management",
       "Risk Management",
       "Change Management",
+      "RACI & Governance",
+      "Budget & Resource Planning",
+      "Vendor / SOW Management",
       "Stakeholder Management",
-      "Vendor Negotiation",
+      "Executive Status Reporting",
+      "Test Management",
     ],
   },
   {
     label: "Technical",
     skills: [
       "SQL",
-      "Databricks",
-      "SAP",
-      "PowerBI",
-      "Tableau",
-      "Cloud Migrations",
-      "Process Automation",
+      "Databricks Lakehouse",
+      "SAP AFS",
+      "Power BI",
+      "SSRS",
+      "Spotfire",
+      "Cloud & Infrastructure Migration",
+      "RPA / UiPath",
       "AI-assisted development",
     ],
   },
@@ -32,12 +37,10 @@ const skillGroups = [
     skills: [
       "Jira",
       "Confluence",
-      "DevOps",
       "Smartsheet",
       "Planview",
       "Clarity PPM",
-      "MS Project",
-      "Visio",
+      "Excel",
     ],
   },
 ];
@@ -54,15 +57,16 @@ export default function About() {
         </h1>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
           I&apos;m a Technical Project Manager at Adidas in Portland, OR, with
-          5+ years across enterprise tech at Adidas and BMO Financial Group.
-          I&apos;ve driven $3M+ in cost savings and efficiency gains by
-          leading cloud migrations, SAP integrations, and data platform
-          initiatives, and I get hands-on, querying data in SQL and
+          7 years in technology delivery across Adidas and BMO Financial
+          Group. I&apos;ve delivered $3M+ in cost savings and cost avoidance
+          by leading cloud migrations, SAP integrations, and data platform
+          modernization, and I get hands-on, querying data in SQL and
           Databricks to ask the right technical questions.
         </p>
         <p className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
           I believe the best way to understand AI is to build with it. Beyond
-          leading an Agentic AI initiative at work, I ship my own products
+          leading an agentic PO-reroute solution at work, I ship my own
+          products
           with AI-assisted development and document what I learn along the
           way.
         </p>
@@ -119,8 +123,8 @@ export default function About() {
               M.S. Management Information Systems
             </p>
             <p className="text-sm text-zinc-500">
-              University of Illinois Springfield · IT Certificate in Project
-              Management · 2023
+              University of Illinois Springfield · Graduate Certificate in IT
+              Project Management · 2023
             </p>
           </div>
           <div className="rounded-xl border border-zinc-100 px-5 py-4 dark:border-zinc-800">

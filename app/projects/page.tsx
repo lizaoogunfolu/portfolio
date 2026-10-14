@@ -2,14 +2,14 @@ export const metadata = { title: "AI Projects | Elizabeth Klamm" };
 
 const projects = [
   {
-    title: "Agentic AI for Supply Chain",
+    title: "Agentic PO-Reroute Solution",
     context: "Adidas · Enterprise initiative",
-    stack: "Agentic AI · Human-in-the-loop design · Stakeholder alignment",
+    stack: "SAP · UiPath agents · RPA · Human-in-the-loop design",
     summary:
-      "Kicked off an Agentic AI initiative for Supply Chain, aligning tech and business stakeholders to design a human-in-the-loop solution.",
+      "Led project planning for an agentic purchase-order reroute solution integrating SAP, UiPath agents, and RPA with human-in-the-loop controls.",
     highlights: [
-      "Mapped the end-to-end process with flowcharts to identify where agents add value and where humans stay in the loop",
-      "Built the delivery timeline and presented the initiative to executives",
+      "Mapped the end-to-end process to identify where agents add value and where humans stay in the loop",
+      "Aligned global and local stakeholders through process mapping, timelines, and executive presentations",
       "Bridged AI capability conversations between engineering and business teams",
     ],
     link: null as string | null,
