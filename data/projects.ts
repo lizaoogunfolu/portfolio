@@ -15,7 +15,6 @@ export const projects: Project[] = [
     summary:
       "Led project planning for an agentic purchase-order reroute solution integrating SAP, UiPath agents, and RPA with human-in-the-loop controls.",
     highlights: [
-      "Mapped the end-to-end process to identify where agents add value and where humans stay in the loop",
       "Aligned global and local stakeholders through process mapping, timelines, and executive presentations",
       "Bridged AI capability conversations between engineering and business teams",
     ],
